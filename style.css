@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+	background-color: black;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: "StitchWarrior";
+	font-display: auto;
+  src: url("StitchWarrior.ttf") format("truetype");
+}
+
+#p5_loading {
+	background-color: black;
+	font-family: "StitchWarrior", Fallback, fantasy;
+	color: white
+}
+
+.loga{
+	width: 128px;
+	height: 128px;
+	background: url("Images/LoadingKnight.png") left center;
+	animation: play 0.8s steps(4) infinite;
+}
+
+@keyframes play {
+	100% { background-position: -512px; }
+}

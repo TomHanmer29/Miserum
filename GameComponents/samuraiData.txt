@@ -1,0 +1,14 @@
+units
+identifier,baseSpeed,cost,baseHp,baseDmg,size,cooldown,walkFrames
+farmer,3,0,10,5,1,10,4
+shogun,2,50,30,20,1,10,4
+oni,1,200,120,30,2,20,2
+stormKing,2,150,30,20,1,20,4
+ninja,4,70,15,15,1,10,4
+healer,2,100,35,5,1,20,4
+kappa,3,40,12,15,1,5,1
+slavNinja,3,0,100,60,2,20,8
+projectiles
+identifier,damage,speed,type,range
+shuriken,3,10,basic,350
+lightning,12,10,electric,600

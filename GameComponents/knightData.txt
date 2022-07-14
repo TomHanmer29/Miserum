@@ -1,0 +1,15 @@
+units
+identifier,baseSpeed,cost,baseHp,baseDmg,size,cooldown,frames
+peasant,3,0,10,5,1,6,4
+knight,2,50,30,20,1,8,4
+cavalry,2,150,60,4,2,12,4
+bard,1,80,20,10,1,20,6
+spear,2,60,30,8,1,10,4
+archer,2,60,20,2,1,10,4
+wizard,2,500,10,5,1,10,4
+engineer,2,100,10,5,1,12,4
+barricade,0,0,75,0,1,0,0
+projectiles
+identifier,damage,speed,type,range
+arrow,8,10,basic,750
+fireball,20,6,fire,600
